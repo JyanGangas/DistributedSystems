@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HRClient",
+            "request": "launch",
+            "mainClass": "com.HotelBooking.HotelBooking.client.HRClient",
+            "projectName": "hotel"
+        },
+        {
+            "type": "java",
+            "name": "HRServer",
+            "request": "launch",
+            "mainClass": "com.HotelBooking.HotelBooking.server.HRServer",
+            "projectName": "hotel"
+        },
+        {
+            "type": "java",
+            "name": "Run HRClient",
+            "request": "launch",
+            "mainClass": "com.HotelBooking.HotelBooking.client.HRClient",
+            "args": "list" 
+        },
+        {
+            "type": "java",
+            "name": "Run HRClient (book)",
+            "request": "launch",
+            "mainClass": "com.HotelBooking.HotelBooking.client.HRClient",
+            "args": "book A 1 John" //change information
+        },
+        {
+            "type": "java",
+            "name": "Run HRClient (guests)",
+            "request": "launch",
+            "mainClass": "com.HotelBooking.HotelBooking.client.HRClient",
+            "args": "guests"
+        },
+        {
+            "type": "java",
+            "name": "Run HRClient (cancel)",
+            "request": "launch",
+            "mainClass": "com.HotelBooking.HotelBooking.client.HRClient",
+            "args": "cancel A 1 John" //change infrormation
+        }
+    ]
+}
