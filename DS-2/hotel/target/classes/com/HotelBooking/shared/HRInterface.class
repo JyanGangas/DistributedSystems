@@ -1,0 +1,9 @@
+ΚώΊΎ   =   #com/HotelBooking/shared/HRInterface  java/lang/Object  java/rmi/Remote list ()Ljava/lang/String; 
+Exceptions  java/rmi/RemoteException book 9(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String; guests cancel 
+SourceFile HRInterface.java           	     
+  
+  	     
+    	     
+  
+  	     
+      
